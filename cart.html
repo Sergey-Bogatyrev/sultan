@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" sizes="66x66" href="assets/img/logo.png" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Rubik&display=swap&_v=20220620142846" rel="stylesheet" />
+  <!--  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.1/swiper-bundle.min.css?_v=20220620142846" />
+  <link rel="stylesheet" href="assets/css/style.min.css?_v=20220620142846" />
+  <title>Про нас</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+  <!-- //? TOP -->
+  <div class="header__top">
+    <div class="header__container">
+      <!-- //^ TOP 1 -->
+      <div class="header__top1">
+        <div class="header__top1-info">
+          <div class="header__top1-info-item">
+            <picture class="header__pic header__top1-info-pic1">
+              <svg class="header__svg">
+                <use xlink:href="assets/sprite/sprite.svg#location"></use>
+              </svg>
+            </picture>
+            <div class="header__top1-info-box">
+              <p class="header__top1-info-text1">г. Кокчетав, ул. Ж. Ташенова 129Б</p>
+              <p class="header__top1-info-text2">(Рынок Восточный)</p>
+            </div>
+          </div>
+          <div class="header__top1-info-item">
+            <picture class="header__pic header__top1-info-pic2">
+              <svg class="header__svg">
+                <use xlink:href="assets/sprite/sprite.svg#envelope"></use>
+              </svg>
+            </picture>
+            <div class="header__top1-info-box">
+              <a class="header__top1-info-mail" href="mailto:opt.sultan@mail.ru">opt.sultan@mail.ru</a>
+              <p class="header__top1-info-text2 header__top1-info-text2_underline">На связи в любое время</p>
+            </div>
+          </div>
+        </div>
+        <nav class="header__top1-menu">
+          <a class="header__top1-menu-link" href="#">О компании</a>
+          <a class="header__top1-menu-link" href="#">Доставка и оплата</a>
+          <a class="header__top1-menu-link" href="#">Возврат</a>
+          <a class="header__top1-menu-link" href="#">Контакты</a>
+        </nav>
+      </div>
+      <!-- //^ TOP 2 -->
+      <div class="header__top2">
+        <div class="header__burger">
+          <picture class="header__pic header__burger-pic">
+            <svg class="header__svg">
+              <use xlink:href="assets/sprite/sprite.svg#burger_to_open"></use>
+            </svg>
+          </picture>
+          <picture class="header__pic header__burger-pic hidden">
+            <svg class="header__svg">
+              <use xlink:href="assets/sprite/sprite.svg#burger_to_close"></use>
+            </svg>
+          </picture>
+        </div>
+        <a class="header__pic header__top2-pic" href="index.html">
+          <svg class="header__svg">
+            <use xlink:href="assets/sprite/sprite.svg#logo"></use>
+          </svg>
+        </a>
+        <a class="header__top2-cart" href="cart.html">
+          <picture class="header__pic header__top2-cart-pic">
+            <svg class="header__svg">
+              <use xlink:href="assets/sprite/sprite.svg#cart"></use>
+            </svg>
+          </picture>
+          <p class="header__top2-cart-quantity">3</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- //? BOTTOM -->
+  <div class="header__bottom">
+    <div class="header__container">
+      <!-- //^ BOTTOM 1 -->
+      <div class="header__bottom1">
+        <a class="header__pic header__bottom1-pic1" href="index.html">
+          <svg class="header__svg">
+            <use xlink:href="assets/sprite/sprite.svg#logo"></use>
+          </svg>
+        </a>
+        <a class="header__bottom1-catalogue" href="catalogue.html">
+          <p class="header__bottom1-catalogue-text">Каталог</p>
+          <picture class="header__pic header__bottom1-catalogue-pic">
+            <svg class="header__svg">
+              <use xlink:href="assets/sprite/sprite.svg#catalogue_white"></use>
+            </svg>
+          </picture>
+        </a>
+        <form class="header__bottom1-search" action="#">
+          <input class="header__bottom1-input" type="text" name="find" placeholder="Поиск..." />
+          <button class="header__bottom1-search-box" type="button">
+            <picture class="header__pic header__bottom1-pic2">
+              <svg class="header__svg">
+                <use xlink:href="assets/sprite/sprite.svg#search_white"></use>
+              </svg>
+            </picture>
+          </button>
+        </form>
+        <a class="header__bottom1-call" href="tel:+77774900091">
+          <div class="header__bottom1-info">
+            <p class="header__bottom1-info-phone">+7 (777) 490-00-91</p>
+            <p class="header__bottom1-info-time">время работы: 9:00-20:00</p>
+            <p class="header__bottom1-info-call">Заказать звонок</p>
+          </div>
+          <picture class="header__pic header__bottom1-pic3">
+            <img class="header__bottom1-img" src="assets/img/call_girl.png" alt="image" />
+          </picture>
+          <div class="header__bottom1-call-circle"></div>
+        </a>
+        <button class="header__bottom1-btn" type="button">
+          <p class="header__bottom1-btn-text">Прайс-лист</p>
+          <picture class="header__pic header__bottom1-btn-pic">
+            <svg class="header__svg">
+              <use xlink:href="assets/sprite/sprite.svg#download"></use>
+            </svg>
+          </picture>
+        </button>
+        <a class="header__bottom1-cart" href="cart.html">
+          <picture class="header__pic header__bottom1-cart-pic">
+            <svg class="header__svg">
+              <use xlink:href="assets/sprite/sprite.svg#cart"></use>
+            </svg>
+          </picture>
+          <p class="header__bottom1-cart-quantity">3</p>
+        </a>
+        <div class="header__bottom1-price">
+          <p class="header__bottom1-price-text">Корзина</p>
+          <div class="header__bottom1-price-box">
+            <p class="header__bottom1-price-amount">12 478</p>
+            <picture class="header__pic header__bottom1-price-pic">
+              <svg class="header__svg">
+                <use xlink:href="assets/sprite/sprite.svg#tenge"></use>
+              </svg>
+            </picture>
+          </div>
+        </div>
+      </div>
+      <!-- //^ BOTTOM 2 -->
+      <div class="header__bottom2">
+        <a class="header__bottom2-catalogue" href="catalogue.html">
+          <picture class="header__pic header__bottom2-catalogue-pic1">
+            <svg class="header__bottom2-catalogue-svg">
+              <use xlink:href="assets/sprite/sprite.svg#catalogue_grey_to_open"></use>
+            </svg>
+          </picture>
+          <picture class="header__pic header__bottom2-catalogue-pic2 hidden">
+            <svg class="header__svg">
+              <use xlink:href="assets/sprite/sprite.svg#catalogue_grey_to_close"></use>
+            </svg>
+          </picture>
+          <p class="header__bottom2-catalogue-text">Каталог</p>
+        </a>
+        <form class="header__bottom2-search" action="#">
+          <input class="header__bottom2-input" type="text" name="find" placeholder="Поиск..." />
+          <button class="header__bottom2-search-btn" type="button">
+            <picture class="header__pic header__bottom2-pic">
+              <svg class="header__svg">
+                <use xlink:href="assets/sprite/sprite.svg#search_grey"></use>
+              </svg>
+            </picture>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+ <div class="navmob">
+  <nav class="navmob__items">
+    <a class="navmob__items-item" href="about.html">About</a>
+    <a class="navmob__items-item" href="#">Text</a>
+    <a class="navmob__items-item" href="#">Text</a>
+    <a class="navmob__items-item" href="#">Text</a>
+    <a class="navmob__items-item" href="#">Text</a>
+  </nav>
+</div>
+
+      <main class="main">
+        <div class="breadcrumbs">
+  <div class="container">
+    <a class="breadcrumbs__link" href="index.html">Главная</a>
+    <a class="breadcrumbs__link" href="#">Корзина </a>
+  </div>
+</div>
+
+        <section class="cart">
+          <div class="container">
+            <div class="cart__inner">
+              <h5 class="cart__title">Корзина</h5>
+              <div class="cart__items">
+                <div class="swiper-slide-item"><div class="product1-cart">
+  <title class="product1-cart__title">популярное</title>
+  <!-- //? LINK -->
+  <a class="product1-cart__link" href="card.html">
+    <picture class="product1-cart__pic product1-cart__pic_main">
+      <img src="assets/img/aos.png" alt="sorti" />
+    </picture>
+    <div class="product1-cart__info">
+      <div class="product1-cart__mass">
+        <picture class="product1-cart__pic product1-cart__pic_container">
+          <svg>
+            <use xlink:href="assets/sprite/sprite.svg#bottle"></use>
+          </svg>
+        </picture>
+        <p class="product1-cart__mass-amount">450 мл</p>
+      </div>
+      <div class="product1-cart__name">
+        <div class="product1-cart__name-box">
+          <p class="product1-cart__name-box-title">AOS</p>
+          <p class="product1-cart__name-box-text">Ср-во для мытья посуды</p>
+        </div>
+        <p class="product1-cart__name-text">Crystal</p>
+      </div>
+      <p class="product1-cart__details">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis.
+      </p>
+    </div>
+  </a>
+  <!-- //? BUY -->
+  <div class="product1-cart__buy">
+    <form class="product1-cart__count-1-form" action="#" method="post">
+      <div class="product1-cart__count-1-box">
+        <button class="product1-cart__count-1-button" type="button">-</button>
+        <input class="product1-cart__count-1-input" type="number" name="count" autocomplete="off" min="1" max="10" value="1" />
+        <button class="product1-cart__count-1-button" type="button">+</button>
+      </div>
+    </form>
+    <p class="product1-cart__buy-price">48,76 ₸</p>
+    <button class="product1-cart__buy-cart" type="button">
+      <picture class="product1-cart__pic product1-cart__pic_cart">
+        <svg>
+          <use xlink:href="assets/sprite/sprite.svg#trash"></use>
+        </svg>
+      </picture>
+    </button>
+  </div>
+</div>
+</div>
+                <div class="swiper-slide-item"><div class="product1-cart">
+  <title class="product1-cart__title"></title>
+  <!-- //? LINK -->
+  <a class="product1-cart__link" href="card.html">
+    <picture class="product1-cart__pic product1-cart__pic_main">
+      <img src="assets/img/sorti.png" alt="sorti" />
+    </picture>
+    <div class="product1-cart__info">
+      <div class="product1-cart__mass">
+        <picture class="product1-cart__pic product1-cart__pic_container">
+          <svg>
+            <use xlink:href="assets/sprite/sprite.svg#bottle"></use>
+          </svg>
+        </picture>
+        <p class="product1-cart__mass-amount">450 мл</p>
+      </div>
+      <div class="product1-cart__name">
+        <div class="product1-cart__name-box">
+          <p class="product1-cart__name-box-title">AOS</p>
+          <p class="product1-cart__name-box-text">Ср-во для мытья посуды</p>
+        </div>
+        <p class="product1-cart__name-text">Апельсин+мята</p>
+      </div>
+      <p class="product1-cart__details">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis.
+      </p>
+    </div>
+  </a>
+  <!-- //? BUY -->
+  <div class="product1-cart__buy">
+    <form class="product1-cart__count-1-form" action="#" method="post">
+      <div class="product1-cart__count-1-box">
+        <button class="product1-cart__count-1-button" type="button">-</button>
+        <input class="product1-cart__count-1-input" type="number" name="count" autocomplete="off" min="1" max="10" value="1" />
+        <button class="product1-cart__count-1-button" type="button">+</button>
+      </div>
+    </form>
+    <p class="product1-cart__buy-price">48,76 ₸</p>
+    <a class="product1-cart__buy-cart" href="#">
+      <picture class="product1-cart__pic product1-cart__pic_cart">
+        <svg>
+          <use xlink:href="assets/sprite/sprite.svg#trash"></use>
+        </svg>
+      </picture>
+    </a>
+  </div>
+</div>
+</div>
+                <div class="swiper-slide-item"><div class="product2-cart">
+  <title class="product2-cart__title">популярное</title>
+  <!-- //? LINK -->
+  <a class="product2-cart__link" href="card.html">
+    <picture class="product2-cart__pic product2-cart__pic_main">
+      <img src="assets/img/bimax.png" alt="sorti" />
+    </picture>
+    <div class="product2-cart__info">
+      <div class="product2-cart__mass">
+        <picture class="product2-cart__pic product2-cart__pic_container">
+          <svg>
+            <use xlink:href="assets/sprite/sprite.svg#box"></use>
+          </svg>
+        </picture>
+        <p class="product2-cart__mass-amount">1500 г</p>
+      </div>
+      <div class="product2-cart__name">
+        <div class="product2-cart__name-box">
+          <p class="product2-cart__name-box-title">BIMAX</p>
+          <p class="product2-cart__name-box-text">Порошок стиральный</p>
+        </div>
+        <p class="product2-cart__name-text">Автомат 100 пятен COMPACT</p>
+      </div>
+      <p class="product2-cart__details">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis.
+      </p>
+    </div>
+  </a>
+  <!-- //? BUY -->
+  <div class="product2-cart__buy">
+    <form class="product1-cart__count-1-form" action="#" method="post">
+      <div class="product1-cart__count-1-box">
+        <button class="product1-cart__count-1-button" type="button">-</button>
+        <input class="product1-cart__count-1-input" type="number" name="count" autocomplete="off" min="1" max="10" value="1" />
+        <button class="product1-cart__count-1-button" type="button">+</button>
+      </div>
+    </form>
+    <p class="product2-cart__buy-price">48,76 ₸</p>
+    <a class="product2-cart__buy-cart" href="#">
+      <picture class="product2-cart__pic product2-cart__pic_cart">
+        <svg>
+          <use xlink:href="assets/sprite/sprite.svg#trash"></use>
+        </svg>
+      </picture>
+    </a>
+  </div>
+</div>
+</div>
+              </div>
+              <div class="cart__order">
+                <button class="cart__button" type="button">
+                  <a class="cart__link" href="order.html" name="order">Оформить заказ</a>
+                </button>
+                <p class="cart__total">146,28 ₸</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+  <div class="footer__container">
+    <!-- //^ MAIN -->
+    <div class="footer__main">
+      <div class="footer__main-box">
+        <a class="footer__logo" href="index.html">
+          <picture class="footer__pic footer__pic_logo">
+            <svg class="footer__svg">
+              <use xlink:href="assets/sprite/sprite.svg#logo_white"></use>
+            </svg>
+          </picture>
+        </a>
+        <button class="footer__price footer__price-main" type="button">
+          <p class="footer__price-text">Прайс-лист</p>
+          <picture class="footer__pic footer__pic_price">
+            <svg class="footer__svg">
+              <use xlink:href="assets/sprite/sprite.svg#download"></use>
+            </svg>
+          </picture>
+        </button>
+      </div>
+      <div class="footer__main-info">
+        <p class="footer__main-info-text1">Компания «Султан» — снабжаем розничные магазины товарами "под ключ" в Кокчетаве и Акмолинской области</p>
+        <p class="footer__main-info-text2">Подпишись на скидки и акции</p>
+      </div>
+      <form class="footer__main-form" action="#">
+        <input class="footer__main-input" type="email" name="email" placeholder="Введите ваш E-mail" />
+        <button class="footer__main-btn" type="submit">
+          <picture class="footer__pic footer__pic_submit">
+            <svg class="footer__svg">
+              <use xlink:href="assets/sprite/sprite.svg#arrow_white_right"></use>
+            </svg>
+          </picture>
+        </button>
+      </form>
+    </div>
+    <!-- //^ CONTENT -->
+    <div class="footer__content">
+      <div class="footer__menu">
+        <h3 class="footer__menu-title">Меню сайта:</h3>
+        <nav class="footer__menu-nav">
+          <a class="footer__menu-link" href="#">О компании</a>
+          <a class="footer__menu-link" href="#">Доставка и оплата</a>
+          <a class="footer__menu-link" href="#">Возврат</a>
+          <a class="footer__menu-link" href="#">Контакты</a>
+        </nav>
+      </div>
+      <div class="footer__category">
+        <h3 class="footer__category-title">Категории:</h3>
+        <nav class="footer__category-nav">
+          <a class="footer__category-link" href="#">Бытовая химия</a>
+          <a class="footer__category-link" href="#">Косметика и гигиена</a>
+          <a class="footer__category-link" href="#">Товары для дома</a>
+          <a class="footer__category-link" href="#">Товары для детей и мам</a>
+          <a class="footer__category-link" href="#">Посуда</a>
+        </nav>
+      </div>
+    </div>
+    <!-- //^ CONNECT -->
+    <div class="footer__connect">
+      <div class="footer__connect-left">
+        <div class="footer__connect-price">
+          <h3 class="footer__connect-price-title">Скачать прайс-лист:</h3>
+          <button class="footer__price" type="button">
+            <p class="footer__price-text">Прайс-лист</p>
+            <picture class="footer__pic footer__pic_price">
+              <svg class="footer__svg">
+                <use xlink:href="assets/sprite/sprite.svg#download"></use>
+              </svg>
+            </picture>
+          </button>
+        </div>
+        <div class="footer__connect-social">
+          <h3 class="footer__connect-social-title">Связь в мессенджерах:</h3>
+          <div class="footer__connect-social-box">
+            <a href="#" class="footer__connect-social-link">
+              <picture class="footer__pic footer__pic_whatsapp">
+                <svg class="footer__svg">
+                  <use xlink:href="assets/sprite/sprite.svg#whatsapp"></use>
+                </svg>
+              </picture>
+            </a>
+            <a href="#" class="footer__connect-social-link">
+              <picture class="footer__pic footer__pic_telegram">
+                <svg class="footer__svg">
+                  <use xlink:href="assets/sprite/sprite.svg#telegram"></use>
+                </svg>
+              </picture>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__connect-right">
+        <h2 class="footer__connect-right-title">Контакты:</h2>
+        <a class="footer__connect-call" href="tel:+77774900091">
+          <div class="footer__connect-info">
+            <p class="footer__connect-info-phone">+7 (777) 490-00-91</p>
+            <p class="footer__connect-info-time">время работы: 9:00-20:00</p>
+            <p class="footer__connect-info-call">Заказать звонок</p>
+          </div>
+        </a>
+        <div class="footer__mail">
+          <a class="footer__mail-link" href="mailto:opt.sultan@mail.ru">opt.sultan@mail.ru</a>
+          <p class="footer__mail-text">На связи в любое время</p>
+        </div>
+        <div class="footer__bank">
+          <picture class="footer__pic footer__pic_visa">
+            <svg class="footer__svg">
+              <use xlink:href="assets/sprite/sprite.svg#visa"></use>
+            </svg>
+          </picture>
+          <picture class="footer__pic footer__pic_mastercard">
+            <svg class="footer__svg">
+              <use xlink:href="assets/sprite/sprite.svg#mastercard"></use>
+            </svg>
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.1.1/swiper-bundle.min.js?_v=20220620142846"></script>
+    <script src="assets/js/app_cart.min.js?_v=20220620142846"></script>
+  </body>
+</html>
